@@ -2,9 +2,7 @@ folder('python_test')
                                                                                  
                                                                                  
 pipelineJob('python_test/Python2') {                                             
-  triggers {                                                                     
-                                                                                 
-  }                                                                              
+                                                                            
   description = "Python 2 tests"                                                 
   definition {                                                                   
     cpsScm {                                                                     
