@@ -1,3 +1,7 @@
+folder('python_test')
+folder('python_test/Python2')
+
+
 pipelineJob('python_test/Python2') {                                             
                                                                             
   description = "Python 2 tests"                                                 
@@ -17,6 +21,7 @@ pipelineJob('python_test/Python2') {
                                                                                  
 queue('python_test/Python3')
 
+folder('python_test/Python3')
 pipelineJob('python_test/Python3') {                                             
                                                                             
   description = "Python 3 tests"                                                 
